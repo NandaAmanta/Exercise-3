@@ -1,0 +1,35 @@
+table th{
+    border-bottom: 2px solid black;
+    margin :0 auto;
+    background: white;
+}
+table{
+    text-align: center;
+    font-size:30px;
+}
+
+body{
+    padding:10px;
+}
+table tr:nth-child(odd){
+    background-color: rgb(199, 198, 198)
+}
+input{
+    width: 0;
+    font-size:40px;
+    margin-bottom:50px; 
+    transition:width 1s,opacity 1s;
+ 
+}
+img{
+    cursor: pointer;
+    transition: 1s;
+
+}
+.width-tambah{
+    width:40%;
+    opacity: 1;
+}
+.berputar{
+    transform: rotateY(180deg)
+}
